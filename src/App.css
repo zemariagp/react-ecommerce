@@ -20,3 +20,22 @@
 .App-link {
   color: #09d3ac;
 }
+
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: yellow;
+}
+
+.navbar h1 {
+  font-size: 4vw;
+  margin: 0;
+}
+
+.productContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
